@@ -1,0 +1,11 @@
+{
+  "template" : "paris_accident*",
+  "mappings" : {
+    "paris_accident": {
+      "properties": {
+        "location": { "type": "geo_point" },
+        "involvedCount": { "type": "double" }
+      }        
+    }
+  }
+}

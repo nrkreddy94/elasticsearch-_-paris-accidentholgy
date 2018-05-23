@@ -1,0 +1,10 @@
+{
+  "template" : "accident*",
+  "mappings" : {
+    "accident": {
+      "properties": {
+               "involvedCount": { "type": "double" }
+      }        
+    }
+  }
+}
